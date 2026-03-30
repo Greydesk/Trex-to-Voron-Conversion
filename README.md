@@ -5,7 +5,7 @@
 
 ## 📝 Project Overview
 
-**Voron Rex** is a heavy-duty conversion project that transforms a **Formbot T-Rex V1** into a high-performance CoreXY machine. By marrying the massive 4040/2040 frame of the T-Rex with the sophisticated kinematics of the Voron ecosystem, this build achieves a unique balance of industrial rigidity and modern tool-changing capabilities.
+**Voron Rex** is a heavy-duty conversion project that transforms a **Formbot T-Rex V1** into a high-performance CoreXY machine. By marrying the massive 4040 frame of the T-Rex with the sophisticated kinematics of the Voron ecosystem, this build achieves a unique balance of industrial rigidity and modern tool-changing capabilities.
 
 This project is a high-rigidity **Flying Gantry CoreXY** 3D printer utilizing 4040 aluminum extrusions and a stressed-skin enclosure. The motion system features a **Quad-NEMA17 independent Z-axis** driven by leadscrews with top pillow blocks, enabling **Quad Gantry Leveling (QGL)** with superior mechanical positioning.
 
@@ -15,7 +15,7 @@ This project is a high-rigidity **Flying Gantry CoreXY** 3D printer utilizing 40
 
 | Component | Specification |
 | :--- | :--- |
-| **Donor Chassis** | Salvaged 4040/4080 Aluminum (Formbot T-Rex V1) |
+| **Donor Chassis** | Salvaged 4040 Aluminum (Formbot T-Rex V1) |
 | **Gantry Architecture** | Flying Gantry with Quad-Z Lead-screw Drive |
 | **X-Axis** | Ultra-lightweight 2020 Carbon Fiber w/ MGN9H Rail |
 | **Y-Axis** | 2040 Aluminum Extrusions w/ MGN9H Rails (Voron Arrangement) |
