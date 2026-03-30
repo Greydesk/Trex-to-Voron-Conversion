@@ -82,6 +82,10 @@ This project is licensed under **Creative Commons Attribution-NonCommercial-Shar
 ### 🛑 Commercial Use
 The "Non-Commercial" clause is strictly enforced. **Commercial sale of the "Voron Rex" as a kit, pre-built machine, or commercial upgrade package is prohibited without an explicit commercial licensing agreement from the author.** If you are a commercial entity interested in a retail venture involving this design, please contact the repository owner.
 
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 ### 🤝 Community Use
 * **Personal Builds:** You are free (and encouraged!) to build, modify, and improve this design for your own use.
 * **Pay It Forward (PIF):** Providing printed ASA components to other hobbyists at the cost of materials and machine time is permitted. We support the community helping the community.
