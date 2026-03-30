@@ -30,8 +30,14 @@ This project is a high-rigidity **Flying Gantry CoreXY** 3D printer utilizing 40
 ## 🚀 Key Design Features
 
 ### 🏗️ Quad-Z Lead Screw Gantry
-By using four independent lead screws instead of the traditional Voron 2.4 belts, the **Voron Rex** eliminates gantry sag and provides a rock-solid foundation for the tool-changing process. The top-mounted pillow blocks ensure the screws remain constrained and aligned under load, even with a heavy toolchanger payload.
+The **Voron Rex** utilizes a specialized Z-axis motion system designed for stability and "stay-put" reliability:
+* **Bottom-Seated NEMA17s:** Motors are securely mounted atop the base 4040 extrusions for easy maintenance and a lower center of gravity.
+* **Anti-Lash Top Pillow Blocks:** High-precision 8mm lead screws are constrained by top-mounted pillow blocks, eliminating vibration and "whip" at high travel speeds.
+* **Self-Locking Kinematics:** By utilizing low-start (1 or 2-start) lead screws, the gantry remains stationary upon power-loss, preventing accidental drops onto the bed without the need for electromagnetic brakes.
 
+### 🧪 Material & Construction Standards
+* **ASA Primary Components:** All structural elements—including the custom 4040 XY joints and Z-carriages—are printed in **ASA**. This provides superior dimensional stability and heat resistance for the internal "stressed-skin" environment.
+* **Stressed-Skin Enclosure:** The enclosure panels are integrated as structural members, significantly increasing the torsional rigidity of the 4040 aluminum frame.
 ### 🔧 Stealthchanger Integration
 Designed for seamless multi-material printing, the **Stealthchanger** "Garage" is mounted to the top of the frame. The **9mm belt path** and integrated end-shaft bearing supports for the NEMA17 motors were specifically chosen to handle the extra mass of the toolchanger shuttle and the high-tension requirements of rapid tool swaps.
 
