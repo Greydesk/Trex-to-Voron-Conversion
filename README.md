@@ -50,9 +50,15 @@ The **Voron Rex** is engineered for high-ambient temperatures required for Nylon
 * **Thermal Break Construction:** A 4mm air gap is maintained between the primary 4040 frame and the stressed-skin enclosure, providing an integrated thermal buffer.
 
 ### 🧪 Material & Construction Standards
-* **ASA Primary Components:** All structural elements—including the custom 4040 XY joints—are printed in **ASA** for superior dimensional stability and heat resistance.
-* **Stressed-Skin Enclosure:** Enclosure panels are integrated as structural members, significantly increasing the torsional rigidity of the 4040 frame.
-* **Carbon Fiber X-Beam:** A 20mm square CF tube minimizes moving mass on the X-axis to allow for higher accelerations despite the beefier 9mm hardware.
+* **ASA Primary Components:** All structural elements—including the custom 4040 XY joints—are printed in **ASA** for superior dimensional stability.
+* **Stressed-Skin Enclosure:** Enclosure panels are integrated as structural members, increasing the torsional rigidity of the 4040 frame.
+* **Carbon Fiber X-Beam:** A 20mm square CF tube minimizes moving mass on the X-axis for higher accelerations.
+
+### 🔧 Assembly Notes: The "Gravity-Stack" Logic
+The **Voron Rex** utilizes custom internal geometry to simplify the assembly of complex composite-to-metal joins:
+* **Gravity-Optimized X-Axis:** The internal X-rail nut carrier is designed as a "table" profile. This allows M3 square nuts and the aluminum load-spreader to be gravity-set during sub-assembly before being slid into the carbon fiber tube, ensuring perfect alignment without loose hardware.
+* **Self-Squaring Gantry:** The 10mm "Super Brackets" feature alignment ribs that mate with the 4040/2040 extrusion slots, ensuring the gantry stays square during the initial bolt-down phase.
+* **Crush-Proof Clamping:** Internal ASA "plugs" are integrated into the rail carriers to provide internal support for the carbon fiber tube, preventing delamination from the high-tension 9mm belt clamps.
 
 ---
 
