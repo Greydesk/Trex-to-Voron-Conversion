@@ -17,7 +17,7 @@ This project is a high-rigidity **Flying Gantry CoreXY** 3D printer utilizing 40
 | :--- | :--- |
 | **Donor Chassis** | Salvaged 4040 Aluminum (Formbot T-Rex V1) |
 | **Gantry Architecture** | Flying Gantry with Quad-Z Lead-screw Drive |
-| **X-Axis** | Ultra-lightweight 2020 Carbon Fiber w/ MGN9H Rail |
+| **X-Axis** | 20mm x 20mm Square Carbon Fiber Tube w/ MGN9H Rail |
 | **Y-Axis** | 2040 Aluminum Extrusions w/ MGN9H Rails (Voron Arrangement) |
 | **Drive Train** | 9mm GT2 Belts + High-Torque Long-Shaft NEMA17s |
 | **XY Joints** | Custom Voron-spec ASA-printed joints (Modified for 9mm) |
@@ -35,12 +35,19 @@ The **Voron Rex** utilizes a specialized Z-axis motion system designed for stabi
 * **Anti-Lash Top Pillow Blocks:** High-precision 8mm lead screws are constrained by top-mounted pillow blocks, eliminating vibration and "whip" at high travel speeds.
 * **Self-Locking Kinematics:** By utilizing low-start (1 or 2-start) lead screws, the gantry remains stationary upon power-loss, preventing accidental drops onto the bed without the need for electromagnetic brakes.
 
+### 💎 Engineering-Grade Build Standards
+The **Voron Rex** is designed for high-duty cycle operation in heated environments:
+
+* **Z-Axis Thermal Coupling:** Z-motors are mounted in direct contact with the 4040 base frame using ASA "L-Brackets" and M8 hardware, utilizing the chassis as a primary heat sink.
+* **High-Temp A/B Configuration:** XY motors are Class H rated (180°C) and top-mounted on the 2040 Y-rails to isolate motion components from the highest heat zones while maintaining easy accessibility.
+* **Long-Shaft Support:** A/B motor shafts are supported by secondary outboard bearings within the XY joints to counteract the increased lateral tension of the 9mm belt system.
+
 ### 🌡️ Thermal Management & Engineering Materials
 The **Voron Rex** is engineered for high-ambient chamber temperatures required for Nylon, Polycarbonate, and ASA:
 * **Structural Heat-Sinking:** All Z-axis and A/B motors are directly coupled to the 4040/2040 aluminum frame, utilizing the chassis as a massive passive heat sink.
 * **High-Torque 9mm Drive:** The 9mm belt system allows for lower motor currents while maintaining high holding torque, reducing the thermal load on the A/B motors.
 * **Active Cooling Ready:** The rear gantry geometry is designed to support active cooling fans for the A/B motors during long-duration, high-temp prints.
-* 
+
 ### 🧪 Material & Construction Standards
 * **ASA Primary Components:** All structural elements—including the custom 4040 XY joints and Z-carriages—are printed in **ASA**. This provides superior dimensional stability and heat resistance for the internal "stressed-skin" environment.
 * **Stressed-Skin Enclosure:** The enclosure panels are integrated as structural members, significantly increasing the torsional rigidity of the 4040 aluminum frame.
@@ -49,20 +56,19 @@ The **Voron Rex** is engineered for high-ambient chamber temperatures required f
 Designed for seamless multi-material printing, the **Stealthchanger** "Garage" is mounted to the top of the frame. The **9mm belt path** and integrated end-shaft bearing supports for the NEMA17 motors were specifically chosen to handle the extra mass of the toolchanger shuttle and the high-tension requirements of rapid tool swaps.
 
 ### ⚡ Advanced Motion & Electronics
-*   **Carbon Fiber X-Beam:** Minimizes moving mass on the X-axis to allow for higher accelerations despite the beefier 9mm hardware.
-*   **Stressed-Skin Enclosure:** The panels are integrated into the frame design to maximize structural rigidity.
-*   **Custom Top-Hat:** A specialized enclosure extension provides the necessary clearance for toolhead umbilicals at maximum Z-travel.
+*  **Carbon Fiber X-Beam:** Minimizes moving mass on the X-axis to allow for higher accelerations despite the beefier 9mm hardware.
+*  **Custom Top-Hat:** A specialized enclosure extension provides the necessary clearance for toolhead umbilicals at maximum Z-travel.
 
 ---
 
 ## 📂 Repository Structure
-*   **/STL:** Modified Voron-spec parts for 4040/2040 frame mounting and 9mm belt clearance.
-*   **/Config:** Klipper configuration files for the BTT Manta M8P V2.0.
-*   **/CAD:** Source files for custom XY joints and Stealthchanger modifications.
+*  **/STL:** Modified Voron-spec parts for 4040/2040 frame mounting and 9mm belt clearance.
+*  **/Config:** Klipper configuration files for the BTT Manta M8P V2.0.
+*  **/CAD:** Source files for custom XY joints and Stealthchanger modifications.
 
 ---
 
 ## 🤝 Acknowledgments
-*   The **Voron Design** team for the foundational kinematics and documentation.
-*   The **Stealthchanger** community for the tool-changing ecosystem.
-*   **Formbot** for the "Heavy Metal" T-Rex donor frame that made this tank of a printer possible.
+*  The **Voron Design** team for the foundational kinematics and documentation.
+*  The **Stealthchanger** community for the tool-changing ecosystem.
+*  **Formbot** for the "Heavy Metal" T-Rex donor frame that made this tank of a printer possible.
