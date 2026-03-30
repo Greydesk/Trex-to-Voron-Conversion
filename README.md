@@ -73,3 +73,16 @@ The full design source is provided as a **Master FreeCAD file**, structured for 
 * The **Voron Design** team for the foundational kinematics.
 * The **Stealthchanger** community for the tool-changing ecosystem.
 * **Formbot** for the "Heavy Metal" T-Rex donor frame.
+
+---
+
+## 📜 License & Usage
+This project is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+
+### 🛑 Commercial Use
+The "Non-Commercial" clause is strictly enforced. **Commercial sale of the "Voron Rex" as a kit, pre-built machine, or commercial upgrade package is prohibited without an explicit commercial licensing agreement from the author.** If you are a commercial entity interested in a retail venture involving this design, please contact the repository owner.
+
+### 🤝 Community Use
+* **Personal Builds:** You are free (and encouraged!) to build, modify, and improve this design for your own use.
+* **Pay It Forward (PIF):** Providing printed ASA components to other hobbyists at the cost of materials and machine time is permitted. We support the community helping the community.
+* **ShareAlike:** Any remixes or modifications to these files must be shared under this same license.
