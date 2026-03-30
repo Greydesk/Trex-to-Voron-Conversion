@@ -35,9 +35,16 @@ The **Voron Rex** utilizes a specialized Z-axis motion system designed for stabi
 * **Anti-Lash Top Pillow Blocks:** High-precision 8mm lead screws are constrained by top-mounted pillow blocks, eliminating vibration and "whip" at high travel speeds.
 * **Self-Locking Kinematics:** By utilizing low-start (1 or 2-start) lead screws, the gantry remains stationary upon power-loss, preventing accidental drops onto the bed without the need for electromagnetic brakes.
 
+### 🌡️ Thermal Management & Engineering Materials
+The **Voron Rex** is engineered for high-ambient chamber temperatures required for Nylon, Polycarbonate, and ASA:
+* **Structural Heat-Sinking:** All Z-axis and A/B motors are directly coupled to the 4040/2040 aluminum frame, utilizing the chassis as a massive passive heat sink.
+* **High-Torque 9mm Drive:** The 9mm belt system allows for lower motor currents while maintaining high holding torque, reducing the thermal load on the A/B motors.
+* **Active Cooling Ready:** The rear gantry geometry is designed to support active cooling fans for the A/B motors during long-duration, high-temp prints.
+* 
 ### 🧪 Material & Construction Standards
 * **ASA Primary Components:** All structural elements—including the custom 4040 XY joints and Z-carriages—are printed in **ASA**. This provides superior dimensional stability and heat resistance for the internal "stressed-skin" environment.
 * **Stressed-Skin Enclosure:** The enclosure panels are integrated as structural members, significantly increasing the torsional rigidity of the 4040 aluminum frame.
+
 ### 🔧 Stealthchanger Integration
 Designed for seamless multi-material printing, the **Stealthchanger** "Garage" is mounted to the top of the frame. The **9mm belt path** and integrated end-shaft bearing supports for the NEMA17 motors were specifically chosen to handle the extra mass of the toolchanger shuttle and the high-tension requirements of rapid tool swaps.
 
