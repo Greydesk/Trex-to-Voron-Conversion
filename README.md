@@ -17,7 +17,7 @@ This project replaces the original T-Rex "bed-slinger" Y-axis with a high-rigidi
 | **Donor Chassis** | Salvaged 4040 Aluminum (Formbot T-Rex V1) |
 | **Gantry Architecture** | Flying Gantry with Quad-Z Lead-screw Drive |
 | **X-Axis** | 20mm x 20mm Square Carbon Fiber Tube w/ MGN9H Rail |
-| **Y-Axis** | 2040 Aluminum Extrusions w/ Dual MGN9H Rails |
+| **Y-Axis** | 2040 Aluminum Extrusions w/ Dual MGN9H Rails in compressed spine arrangement |
 | **Print Surface** | T-Rex V1 Glass/Sheet-Metal (Converted to Fixed-Mount) |
 | **Drive Train** | 9mm GT2 Belts + High-Torque Long-Shaft NEMA17s |
 | **XY Joints** | Custom Voron-spec ASA-printed joints (Modified for 9mm) |
