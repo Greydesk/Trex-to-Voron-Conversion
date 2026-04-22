@@ -20,8 +20,10 @@ This project replaces the original T-Rex "bed-slinger" Y-axis with a high-rigidi
 | **Y-Axis** | 2040 Aluminum Extrusions w/ Dual MGN9H Rails |
 | **Drive Train** | **10mm GT2 Belts** + High-Torque Long-Shaft NEMA17s |
 | **Shaft Support** | **KFL05 Outboard Flange Bearings** (Bridged Axle Design) |
-| **XY Joints** | Custom Voron-spec ASA-printed joints (Modified for 10mm) |
 | **Tool System** | **Stealthchanger** Ecosystem w/ Top-Mounted "Garage" |
+| **Toolhead / Cooling** | **Burninator** (Compact 4010 Blower Design) |
+| **Extruder** | **LDO Orbiter 2.0** (Planetary 7.5:1 Dual-Drive) |
+| **Hotend** | **Phaetus Rapido UHF** (Extended Melt Zone / Ceramic) |
 | **Controller** | BTT Manta M8P (V2.0) + CB1/CM4 |
 | **Communication** | Full CANbus (Nitehawk-Hexa / EBB36) |
 
@@ -40,10 +42,11 @@ To handle the extreme tension of the **10mm belt system**, the A/B motors utiliz
 * **Bridged-Axle Support:** The long motor shafts are captured by **KFL05 flange bearings** mounted to the bottom 4mm aluminum plate. This prevents shaft deflection and protects the motor's internal bearings from axial load.
 * **Locked Vertical Alignment:** Shaft collars (or KFL05 set screws) lock the vertical position of the drive pulley, ensuring the belt path never "wanders" or climbs pulley flanges during high-acceleration moves.
 
-### 💎 Engineering-Grade Build Standards
-Designed for high-duty cycle operation in heated environments:
-* **High-Temp A/B Configuration:** XY motors are **Class H rated (180°C)** and top-mounted on the 2040 Y-rails to isolate motion components from the highest heat zones.
-* **Thermal Management:** Integrated forced convection fans act as a heat exchanger, moving energy from the fixed bed into the chamber air.
+### 💎 High-Flow Toolhead Configuration
+The Rex is optimized for industrial-speed printing of engineering materials:
+* **Burninator Toolhead:** A high-efficiency, lightweight toolhead that fits into the Stealthchanger linkage while supporting ultra-high-flow hotends.
+* **Rapido UHF Integration:** Utilizing a ceramic heater and volcano-style melt zone, the system supports volumetric flows up to **75mm³/s**, matching the high-speed potential of the 10mm gantry.
+* **Orbiter 2.0 Precision:** The LDO Orbiter 2.0 provides the necessary pushing force (20kg+) to maintain consistent extrusion pressure through the UHF melt zone without skipping.
 
 ---
 
