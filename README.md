@@ -43,11 +43,12 @@ To handle the extreme tension of the **10mm belt system**, the A/B motors utiliz
 * **Bridged-Axle Support:** Long motor shafts are captured by **KFL05 flange bearings** mounted to the bottom 4mm aluminum plate, preventing shaft deflection.
 * **Locked Vertical Alignment:** Shaft collars lock the vertical position of the drive pulley, ensuring the 10mm belt path never "wanders" during high-acceleration moves.
 
-### 🌡️ Thermal Management & Chamber
+### 🌡️ Thermal Management & Stressed-Skin Enclosure
 Engineered for high-ambient temperatures required for Nylon, PC, and ASA:
+* **Stressed-Skin Construction:** Enclosure panels are not merely cosmetic; they are integrated as **structural members** through high-frequency fastening to the 4040 frame. This significantly increases the **torsional rigidity** of the chassis.
+* **Thermal Break Buffer:** A 4mm air gap is maintained between the primary 4040 frame and the stressed-skin enclosure, providing an integrated thermal buffer.
 * **Forced Convection Heating:** Integrated under-bed cooling fans act as a heat exchanger, moving energy from the bed into the chamber air.
 * **Reflective Insulation:** Rear and bottom panels feature **foil-faced insulating barriers** (Reflectix) to minimize radiant heat loss.
-* **Thermal Break Construction:** A 4mm air gap is maintained between the primary 4040 frame and the stressed-skin enclosure, providing an integrated thermal buffer.
 
 ---
 
@@ -69,6 +70,7 @@ The design is provided as a **Master FreeCAD file**:
 ## 🤝 Acknowledgments
 * The **Voron Design** team for the foundational kinematics.
 * The **Stealthchanger** community for the tool-changing ecosystem.
+* **Diabase** for the **Burninator** toolhead design.
 * **Formbot** for the "Heavy Metal" T-Rex donor frame that made this tank of a printer possible.
 
 ---
